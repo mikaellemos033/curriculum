@@ -1,10 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 body {
-  font-family: "Poiret One", cursive !important;
+  font-family: 'Raleway', sans-serif !important;
   color: #111; }
 
 h1, h2 {
-  font-weight: normal; }
+  font-weight: normal; 
+  font-family: "Poiret One", cursive !important;}
 
 .span {
   font-size: 2.3em; }
