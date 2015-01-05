@@ -1,0 +1,3079 @@
+				/************Bem-Vindos ao KalelWork **************/
+
+/****************************** Inicio dos comandos **********************************/
+
+/**** Começo das Estruturas Padrões ****/
+
+/**** Começo do Body ****/
+
+body{
+	width: 100%;
+	font-size: 84.4%; /* + ou - 15px */
+	padding: 0;
+	margin: 0;
+	height: 0;
+	font-family: arial;
+	overflow-x: hidden; 
+}
+
+html , body{
+	height: 100%;
+}
+
+/**** Fim do Body ****/
+
+/**** Começo das Tags de textos ****/
+
+p, h1, h2, h3, h4, h5, h6, span{
+	margin: 0;
+}
+
+p{
+	font-size: 1.15em;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+h2{
+	font-size: 2.2em;
+}
+
+h3{
+	font-size: 2em;
+}
+
+h4{
+	font-size: 1.8em;
+}
+
+h5{
+	font-size: 1.6em;
+}
+
+h6{
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+/**** Fim das Tags de textos ****/
+
+/**** Começo das Medidas do formulario e de outros campos ****/
+form{
+	width: 92%;
+	padding: 2%;
+	margin-left: 1.5%;
+}
+
+input, textarea{
+	float: left;
+	width: 99.5%;
+	border-right: none;
+	border-top: 1px #ddd solid;
+	border-bottom: 1px #ddd solid;
+	border-left:none;
+	min-height: 55px;	
+	font-size: 1.1em;
+	color: #333;
+	padding: 0;
+}
+
+textarea{
+	font-family: arial;
+	resize:none;
+	height: auto;
+	overflow: hidden;
+}
+
+/*
+input:focus, textarea:focus{
+	box-shadow: 1px 1px  #328bca !important;
+}*/
+
+/**** Começo das Medidas do formulario e de outros campos ****/
+
+/**** Começo das tabelas e de seus Elementos ****/
+table{
+	width: 98%;
+	margin-left: 1%;
+	max-width: 98%;
+}
+
+th{
+	height: auto;
+	padding: .6%; 
+	line-height: 20px;
+	font-family: arial;
+	border: .1em solid #000;
+	max-width: 100%;
+	background-color: #ddd;
+}
+
+td{
+	background-color: #ddd;
+	line-height: 20px;
+	padding: .4%;
+	border: .1em solid #aaa;
+	max-width: 10%;
+}
+
+/**** Fim das Tabelas e de Seus Elementos ****/
+
+/**** Fim das Estruras Padrões ****/
+
+
+
+/**** Começo das estruturas modificadas ****/
+
+/**** Tamanho de imagens estilizados ****/
+
+.img-responsiva{
+	max-width: 100%;
+}
+
+.img-circular{
+	border-radius: 50%;
+}
+
+.img-moldura{
+	background-color: #fff;
+	padding: .2%;
+	border: .15em solid #aaa;
+}
+
+/**** Fim das imagens com tamanho estilizados ****/
+
+.titulo{
+	font-size: 2em;
+	color: #333;
+}
+
+.link-sem-traco a{
+	text-decoration: none;
+}
+
+.link-branco a{
+	color: white;
+}
+
+.link-branco a:hover{
+	color: #000;
+}
+
+a{
+	color:  #128bca;
+}
+
+a:hover{
+	color: tomato;
+}
+
+/**** links com os fundos pré-definidos ****/
+
+.fundo-azul a{
+	color: white;
+}
+
+.fundo-azul a:hover{
+	color: #000;
+}
+
+.fundo-azul-claro a{
+	color: #000;
+}
+
+.fundo-azul-claro a:hover{
+	color: white;
+}
+
+.fundo-ciano a {
+	color: #000 !important;
+}
+
+.fundo-ciano a:hover{
+	color: white !important;
+}
+
+.fundo-laranja a{
+	color: #000;
+}
+
+.fundo-laranja a:hover{
+	color: white;
+}
+
+.fundo-preto a, .fundo-preto label, .fundo-preto .titulo{
+	color: white;
+}
+
+.fundo-preto a:hover{
+	color:  #128bca;
+}
+
+.fundo-verde a {
+	color: #000;
+}
+
+.fundo-verde a:hover{
+	color: white;
+}
+
+.fundo-vermelho a {
+	color: white;
+}
+
+.fundo-vermelho a:hover{
+	color: #000;
+}
+
+.fundo-tomate a{
+	color: #000;
+}
+
+.fundo-tomate a:hover{
+	color: white;
+}
+
+/**** Fim dos Links ****/
+
+/**** Começo dos Menus ****/
+
+.kalel-topo, .kalel-topo-fixo{
+	width: 100%;
+	display: inline-block;
+}
+
+.kalel-topo-fixo{
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+}
+
+.menu, .logo, .menu-centro{
+	float: left;
+	min-height: 20px;
+	margin-top: 0%;
+}
+
+.logo{
+	width: 25%;
+	max-width: 74%;
+	text-align: center;
+	padding: .3em;
+	margin-left: 2.5%;
+}
+
+.logo-titulo{
+	font-size: 1.5em;
+	line-height: 45px;
+	vertical-align: middle;
+}
+
+.menu, .menu-centro{
+	margin-left: 1%;
+	border-radius: .2em;
+}
+
+.menu{
+	width: 65%;
+	max-width: 71%;
+}
+
+.menu-centro{
+	width: 98.5%;
+	max-width: 99%;
+}
+
+.menu ul, .menu-centro ul{
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.menu-direita{
+	text-align: right !important;
+}
+
+.menu ul li, .menu-centro ul li{
+	display: inline-block;
+	min-width: 9%;
+	width: auto;
+	max-width: 50%;
+	margin-left: 1%;
+	margin-top: 0;
+	list-style: none;
+	font-size: 1.2em;
+	line-height: 45px;
+	vertical-align: middle;
+	text-align: center;
+	padding: .5%;
+}
+
+.menu ul li a, .menu-centro ul li a{
+	text-decoration: none;
+}
+
+/**** Mini-menu ****/
+
+.mini-menu{
+	width: 100%;
+	min-height: 40px;
+	margin-top: .5%;
+	display: none;
+}
+
+.mini-menu select{
+	width: 100%;
+	min-height: 40px;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+/**** Fim do Mini-menu ****/
+
+/**** Fim dos Menus ****/
+
+/**** Alinhamentos e caracteristicas de Texto ****/
+
+.texto-centro{
+	text-align: center;
+}
+
+.texto-direita{
+	text-align: right;
+}
+
+.texto-esquerda{
+	text-align: left;
+}
+
+.texto-justificado{
+	text-align: justify;
+}
+
+.texto-branco{
+	color: white;
+}
+
+.texto-italico{
+	font-style: italic;
+}
+
+.texto-negro{
+	font-weight: bold;
+}
+
+/**** Fim do Alinhamento de Texto ****/
+
+/**** começo das linhas ****/
+
+/**** Linhas Finas ****/
+
+.linha-fina{
+	border: .1em solid #ddd;
+}
+
+.linha-fina-topo{
+	border-top: .1em solid #ddd;
+}
+
+.linha-fina-baixo{
+	border-bottom: .1em solid #ddd;
+}
+
+.linha-fina-direita{
+	border-right: .1em solid #ddd;
+}
+
+.linha-fina-esquerda{
+	border-left: .1em solid #ddd;
+}
+
+/**** Fim das Linhas Finas ****/
+
+/**** Linhas Médias ****/
+
+.linha-media{
+	border: .3em solid #ddd;
+}
+
+.linha-media-topo{
+	border-top: .3em solid #ddd;
+}
+
+.linha-media-baixo{
+	border-bottom: .3em solid #ddd;
+}
+
+.linha-media-direita{
+	border-right: .3em solid #ddd;
+}
+
+.linha-media-esquerda{
+	border-left: .3em solid #ddd;
+}
+
+/**** Fim das Linhas Médias ****/
+
+/**** Linhas Grades ****/
+
+.linha-grande{
+	border: .5em solid #ddd;
+}
+
+.linha-grande-topo{
+	border-top: .5em solid #ddd;
+}
+
+.linha-grande-baixo{
+	border-bottom: .5em solid #ddd;
+}
+
+.linha-grande-direita{
+	border-right: .5em solid #ddd;
+}
+
+.linha-grande-esquerda{
+	border-left: .5em solid #ddd;
+}
+
+/**** Fim das Linhas Grandes ****/
+
+/**** Cores das Linhas ****/
+
+.linha-azul{
+	border-color: #128bca;
+}
+
+.linha-azul-claro{
+	border-color: #2bc0de;
+}
+
+.linha-branca{
+	border-color: white;
+}
+
+.linha-ciano{
+	border-color: cyan;
+}
+
+.linha-laranja{
+	border-color: #ed9c28;
+}
+
+.linha-preta{
+	border-color: #000;
+}
+
+.linha-verde{
+	border-color: #1cb85c;
+}
+
+.linha-vermelha{
+	border-color: #d2322d;
+}
+
+.linha-tomate{
+	border-color: tomato;
+}
+
+/**** Fim das Cores das Linhas ****/
+
+/**** Linha circular ****/
+
+.linha-circular{
+	border-radius: .2em; 
+}
+
+/**** Fim das Linhas circulares ****/
+
+/**** Fim das linhas ****/
+
+/**** Começo dos Botões ****/
+
+.bt{
+	clear: both;
+	min-width: 26%;
+	min-height: 35px;
+/* 	border-radius: .4em; */
+	border: .1em solid transparent !important;
+	cursor: pointer;
+	font-size: 1.1em;
+ margin-top: 3px;
+}
+
+/**** Cor dos Botões ****/
+
+.bt-padrao{
+	background-color: #bbb;
+}
+
+.bt-primario{
+	background-color: #328bca;
+}
+
+.bt-info{
+	background-color: #2bc0de;
+}
+
+.bt-sucesso{
+	background-color: #1cb85c;
+}
+
+.bt-error{
+	background-color: #d2322d;
+}
+
+.bt-atencao{
+	background-color: #ed9c28;
+}
+
+/**** Fim das Cores dos Botões ****/
+
+/**** Efeito ao passar o Mouse nos Botões ****/
+
+.bt-padrao:hover{
+	background-color: #ccc;
+}
+
+.bt-primario:hover{
+	background-color: #528bca;
+}
+
+.bt-info:hover{
+	background-color: #6bc0de;
+}
+
+.bt-sucesso:hover{
+	background-color: #5cb85c;
+}
+
+.bt-error:hover{
+	background-color: #c2322d;
+}
+
+.bt-atencao:hover{
+	background-color: #cd9c28;
+}
+
+/**** Cor Da Fonte nos ****/
+
+.bt-primario, .bt-error{
+	color: white;
+}
+
+/**** Fim dos Botões ****/
+
+/**** Blocos absolutos ****/
+
+.conteudo{
+	width: 100%;
+	float: left;
+	min-height: 100%;
+}
+
+.conteudo-medio{
+	width: 100%;
+	float: left;
+	min-height: 50%;
+}
+
+/**** Fim dos blocos absolutos ****/
+
+/**** Cores de Fundo (Backgrounds) ****/
+
+.fundo-preto{
+	background-color: #000;
+}
+
+.fundo-branco{
+	background-color: white;
+}
+
+.fundo-azul{
+	background-color: #128bca;
+}
+
+.fundo-azul-claro{
+	background-color: #2bc0de;
+}
+
+.fundo-ciano{
+	background-color: cyan;
+}
+
+.fundo-laranja{
+	background-color: #ed9c28;
+}	
+
+.fundo-verde{
+	background-color: #1cb85c;
+}
+
+.fundo-vermelho{
+	background-color: #d2322d;
+}
+
+.fundo-tomate{
+	background-color: tomato;
+}
+
+.painel{/*sera uma cor para teste do grid*/
+	background-color: #ddd;
+}
+
+/**** textos comuns interagindo com os fundos ****/
+
+.fundo-azul, .fundo-preto, .fundo-vermelho{
+	color: white;	
+}
+
+/**** Fim das Cores de Fundo ****/
+
+/************** alturas minimas ************/
+
+.min-10{
+	min-height: 10px !important;
+}
+
+.min-15{
+	min-height: 15px !important;
+}
+
+.min-20{
+	min-height: 20px !important;
+}
+
+.min-25{
+	min-height: 25px !important;
+}
+
+.min-30{
+	min-height: 30px !important;
+}
+
+.min-35{
+	min-height: 35px !important;
+}
+
+.min-40{
+	min-height: 40px !important;
+}
+
+.min-45{
+	min-height: 45px !important;
+}
+
+.min-50{
+	min-height: 50px !important;
+}
+
+.min-55{
+	min-height: 55px !important;
+}
+
+.min-60{
+	min-height: 60px !important;
+}
+
+.min-65{
+	min-height: 65px !important;
+}
+
+.min-70{
+	min-height: 70px !important;
+}
+
+.min-75{
+	min-height: 75px !important;
+}
+
+.min-80{
+	min-height: 80px !important; 
+}
+
+.min-85{
+	min-height: 85px !important;
+}
+
+.min-90{
+	min-height: 90px !important;
+}
+
+.min-95{
+	min-height: 95px !important;
+}
+
+.min-100{
+	min-height: 100px !important;
+}
+
+/**** Fim das Alturas Minimas ****/
+
+/**** Topo classe que tira a margin-top dos elementos ****/
+
+.topo{
+	margin-top: 0 !important;
+}
+
+/**** Fim da classe Topo ****/
+
+/**** espaçamentos do topo ****/
+
+.topo-5{
+	margin-top: 5px !important;
+}
+
+.topo-10{
+	margin-top: 10px !important;
+}
+
+.topo-15{
+	margin-top: 15px !important;
+}
+
+.topo-20{
+	margin-top: 20px !important;
+}
+
+.topo-25{
+	margin-top: 25px !important; 
+}
+
+.topo-30{
+	margin-top: 30px !important;
+}
+
+.topo-35{
+	margin-top: 35px !important;
+}
+
+.topo-40{
+	margin-top: 40px !important;
+}
+
+.topo-45{
+	margin-top: 45px !important;
+}
+
+.topo-50{
+	margin-top: 50px !important;
+}
+
+.topo-55{
+	margin-top: 55px !important;
+}
+
+.topo-60{
+	margin-top: 60px !important;
+}
+
+.topo-65{
+	margin-top: 65px !important;
+}
+
+.topo-70{
+	margin-top: 70px !important;
+}
+
+.topo-75{
+	margin-top: 75px !important;
+}
+
+.topo-80{
+	margin-top: 80px !important;
+}
+
+.topo-85{
+	margin-top: 85px !important;
+}
+
+.topo-90{
+	margin-top: 90px !important;
+}
+
+.topo-95{
+	margin-top: 95px !important;
+}
+
+.topo-100{
+	margin-top: 100px !important;
+}
+
+.topo-105{
+	margin-top: 105px !important;
+}
+
+.topo-110{
+	margin-top: 110px !important;
+}
+
+.topo-115{
+	margin-top: 115px !important;
+}
+
+.topo-120{
+	margin-top: 120px !important;
+}
+
+.topo-125{
+	margin-top: 125px !important;
+}
+
+.topo-130{
+	margin-top: 130px !important;
+}
+
+.topo-135{
+	margin-top: 135px !important;
+}
+
+.topo-140{
+	margin-top: 140px !important;
+}
+
+.topo-145{
+	margin-top: 145px !important;
+}
+
+.topo-150{
+	margin-top: 150px !important;
+}
+
+/**** Fim dos espaçamentos do topo ****/
+
+/**** espaçamentos da parte de baixo ****/
+
+.baixo{
+	margin-bottom: 0!important;
+}
+
+.baixo-5{
+	margin-bottom: 5px !important;
+}
+
+.baixo-10{
+	margin-bottom: 10px !important;
+}
+
+.baixo-15{
+	margin-bottom: 15px !important;
+}
+
+.baixo-20{
+	margin-bottom: 20px !important;
+}
+
+.baixo-25{
+	margin-bottom: 25px !important; 
+}
+
+.baixo-30{
+	margin-bottom: 30px !important;
+}
+
+.baixo-35{
+	margin-bottom: 35px !important;
+}
+
+.baixo-40{
+	margin-bottom: 40px !important;
+}
+
+.baixo-45{
+	margin-bottom: 45px !important;
+}
+
+.baixo-50{
+	margin-bottom: 50px !important;
+}
+
+.baixo-55{
+	margin-bottom: 55px !important;
+}
+
+.baixo-60{
+	margin-bottom: 60px !important;
+}
+
+.baixo-65{
+	margin-bottom: 65px !important;
+}
+
+.baixo-70{
+	margin-bottom: 70px !important;
+}
+
+.baixo-75{
+	margin-bottom: 75px !important;
+}
+
+.baixo-80{
+	margin-bottom: 80px !important;
+}
+
+.baixo-85{
+	margin-bottom: 85px !important;
+}
+
+.baixo-90{
+	margin-bottom: 90px !important;
+}
+
+.baixo-95{
+	margin-bottom: 95px !important;
+}
+
+.baixo-100{
+	margin-bottom: 100px !important;
+}
+
+.baixo-105{
+	margin-bottom: 105px !important;
+}
+
+.baixo-110{
+	margin-bottom: 110px !important;
+}
+
+.baixo-115{
+	margin-bottom: 115px !important;
+}
+
+.baixo-120{
+	margin-bottom: 120px !important;
+}
+
+.baixo-125{
+	margin-bottom: 125px !important;
+}
+
+.baixo-130{
+	margin-bottom: 130px !important;
+}
+
+.baixo-135{
+	margin-bottom: 135px !important;
+}
+
+.baixo-140{
+	margin-bottom: 140px !important;
+}
+
+.baixo-145{
+	margin-bottom: 145px !important;
+}
+
+.baixo-150{
+	margin-bottom: 150px !important;
+}
+
+/**** Fim dos espaçamentos da parte de baixo ****/
+
+/**** espaçamentos da parte esquerda ****/
+
+.esquerda{
+	margin-left: 0 !important;
+}
+
+.esquerda-5{
+	margin-left: 5px !important;
+}
+
+.esquerda-10{
+	margin-left: 10px !important;
+}
+
+.esquerda-15{
+	margin-left: 15px !important;
+}
+
+.esquerda-20{
+	margin-left: 20px !important;
+}
+
+.esquerda-25{
+	margin-left: 25px !important; 
+}
+
+.esquerda-30{
+	margin-left: 30px !important;
+}
+
+.esquerda-35{
+	margin-left: 35px !important;
+}
+
+.esquerda-40{
+	margin-left: 40px !important;
+}
+
+.esquerda-45{
+	margin-left: 45px !important;
+}
+
+.esquerda-50{
+	margin-left: 50px !important;
+}
+
+.esquerda-55{
+	margin-left: 55px !important;
+}
+
+.esquerda-60{
+	margin-left: 60px !important;
+}
+
+.esquerda-65{
+	margin-left: 65px !important;
+}
+
+.esquerda-70{
+	margin-left: 70px !important;
+}
+
+.esquerda-75{
+	margin-left: 75px !important;
+}
+
+.esquerda-80{
+	margin-left: 80px !important;
+}
+
+.esquerda-85{
+	margin-left: 85px !important;
+}
+
+.esquerda-90{
+	margin-left: 90px !important;
+}
+
+.esquerda-95{
+	margin-left: 95px !important;
+}
+
+.esquerda-100{
+	margin-left: 100px !important;
+}
+
+.esquerda-105{
+	margin-left: 105px !important;
+}
+
+.esquerda-110{
+	margin-left: 110px !important;
+}
+
+.esquerda-115{
+	margin-left: 115px !important;
+}
+
+.esquerda-120{
+	margin-left: 120px !important;
+}
+
+.esquerda-125{
+	margin-left: 125px !important;
+}
+
+.esquerda-130{
+	margin-left: 130px !important;
+}
+
+.esquerda-135{
+	margin-left: 135px !important;
+}
+
+.esquerda-140{
+	margin-left: 140px !important;
+}
+
+.esquerda-145{
+	margin-left: 145px !important;
+}
+
+.esquerda-150{
+	margin-left: 150px !important;
+}
+
+/**** Fim dos espaçamentos da parte esquerda ****/
+
+/**** espaçamentos da parte direita ****/
+
+.direita{
+	margin-right: 0 !important;
+}
+
+.direita-5{
+	margin-right: 5px !important;
+}
+
+.direita-10{
+	margin-right: 10px !important;
+}
+
+.direita-15{
+	margin-right: 15px !important;
+}
+
+.direita-20{
+	margin-right: 20px !important;
+}
+
+.direita-25{
+	margin-right: 25px !important; 
+}
+
+.direita-30{
+	margin-right: 30px !important;
+}
+
+.direita-35{
+	margin-right: 35px !important;
+}
+
+.direita-40{
+	margin-right: 40px !important;
+}
+
+.direita-45{
+	margin-right: 45px !important;
+}
+
+.direita-50{
+	margin-right: 50px !important;
+}
+
+.direita-55{
+	margin-right: 55px !important;
+}
+
+.direita-60{
+	margin-right: 60px !important;
+}
+
+.direita-65{
+	margin-right: 65px !important;
+}
+
+.direita-70{
+	margin-right: 70px !important;
+}
+
+.direita-75{
+	margin-right: 75px !important;
+}
+
+.direita-80{
+	margin-right: 80px !important;
+}
+
+.direita-85{
+	margin-right: 85px !important;
+}
+
+.direita-90{
+	margin-right: 90px !important;
+}
+
+.direita-95{
+	margin-right: 95px !important;
+}
+
+.direita-100{
+	margin-right: 100px !important;
+}
+
+.direita-105{
+	margin-right: 105px !important;
+}
+
+.direita-110{
+	margin-right: 110px !important;
+}
+
+.direita-115{
+	margin-right: 115px !important;
+}
+
+.direita-120{
+	margin-right: 120px !important;
+}
+
+.direita-125{
+	margin-right: 125px !important;
+}
+
+.direita-130{
+	margin-right: 130px !important;
+}
+
+.direita-135{
+	margin-right: 135px !important;
+}
+
+.direita-140{
+	margin-right: 140px !important;
+}
+
+.direita-145{
+	margin-right: 145px !important;
+}
+
+.direita-150{
+	margin-right: 150px !important;
+}
+
+/**** Fim dos espaçamentos da parte direita ****/
+
+/**** Visibilidade ****/
+
+.vis-desk, .vis-cel, .vis-tab, .invis-desk, .invis-cel, .invis-tab{
+	display: none !important;
+}
+
+/**** visibilidade de backgrounds ****/
+
+/**** visualização do fundo-preto ****/
+
+.fundo-preto-vis-desk, .fundo-preto-vis-tab, .fundo-preto-vis-cel, 
+.fundo-preto-invis-desk, .fundo-preto-invis-tab, .fundo-preto-invis-cel{
+	background-color: transparent;
+}
+
+/**** visualização do fundo-branco ****/
+
+.fundo-branco-vis-desk, .fundo-branco-vis-tab, .fundo-branco-vis-cel, 
+.fundo-branco-invis-desk, .fundo-branco-invis-tab, .fundo-branco-invis-cel{
+	background-color: transparent;
+}
+
+/**** visualização do fundo-azul ****/
+
+.fundo-azul-vis-desk, .fundo-azul-vis-tab, .fundo-azul-vis-cel, 
+.fundo-azul-invis-desk, .fundo-azul-invis-tab, .fundo-azul-invis-cel{
+	background-color: transparent;
+}
+
+/**** visualização do fundo-azul-claro ****/
+
+.fundo-azul-claro-vis-desk, .fundo-azul-claro-vis-tab, .fundo-azul-claro-vis-cel, 
+.fundo-azul-claro-invis-desk, .fundo-azul-claro-invis-tab, .fundo-azul-claro-invis-cel{
+	background-color: transparent;
+}
+
+/**** visualização do fundo-ciano ****/
+
+.fundo-ciano-vis-desk, .fundo-ciano-vis-tab, .fundo-ciano-vis-cel, 
+.fundo-ciano-invis-desk, .fundo-ciano-invis-tab, .fundo-ciano-invis-cel{
+	background-color: transparent;
+}
+
+/**** visualização do fundo-verde ****/
+
+.fundo-verde-vis-desk, .fundo-verde-vis-tab, .fundo-verde-vis-cel, 
+.fundo-verde-invis-desk, .fundo-verde-invis-tab, .fundo-verde-invis-cel{
+	background-color: transparent;
+}
+
+/**** visualização do fundo-vermelho ****/
+
+.fundo-vermelho-vis-desk, .fundo-vermelho-vis-tab, .fundo-vermelho-vis-cel, 
+.fundo-vermelho-invis-desk, .fundo-vermelho-invis-tab, .fundo-vermelho-invis-cel{
+	background-color: transparent;
+}
+
+/**** visualização do fundo-laranja ****/
+
+.fundo-laranja-vis-desk, .fundo-laranja-vis-tab, .fundo-laranja-vis-cel, 
+.fundo-laranja-invis-desk, .fundo-laranja-invis-tab, .fundo-laranja-invis-cel{
+	background-color: transparent;
+}
+
+/**** visualização do fundo-tomate ****/
+
+.fundo-tomate-vis-desk, .fundo-tomate-vis-tab, .fundo-tomate-vis-cel, 
+.fundo-tomate-invis-desk, .fundo-tomate-invis-tab, .fundo-tomate-invis-cel{
+	background-color: transparent;
+}
+
+/**** fim da visibilidade dos backgrounds ****/
+
+/**** Fim das classes de Visibilidade ****/
+
+/**** Fim das Estruturas Modificadas ****/
+
+
+
+/**** Caracteristicas padrão do Grid ****/
+
+.linha{
+	display: inline-block;
+	min-height: 10px;
+	margin-top: 1%;
+	float: left;
+	width: 100%;
+}
+
+.kalel{/**** Padrão 960 px ****/
+	width: 960px;
+	margin: 0px auto;
+	clear: both;
+}
+
+/**** 12 colunas ****/
+.kalel-12-12, 
+.kalel-11-12, .kalel-11-12-centro, 
+.kalel-10-12, .kalel-10-12-centro, 
+.kalel-9-12, .kalel-9-12-centro, 
+.kalel-8-12, .kalel-8-12-centro, 
+.kalel-7-12, .kalel-7-12-centro, 
+.kalel-6-12, .kalel-6-12-centro, 
+.kalel-5-12, .kalel-5-12-centro, 
+.kalel-4-12, .kalel-4-12-centro, 
+.kalel-3-12, .kalel-3-12-centro, 
+.kalel-2-12, .kalel-2-12-centro, 
+.kalel-1-12, .kalel-1-12-centro, 
+/**** 11 colunas ****/
+.kalel-11-11, 
+.kalel-10-11, .kalel-10-11-centro, 
+.kalel-9-11, .kalel-9-11-centro, 
+.kalel-8-11, .kalel-8-11-centro, 
+.kalel-7-11, .kalel-7-11-centro, 
+.kalel-6-11, .kalel-6-11-centro, 
+.kalel-5-11, .kalel-5-11-centro, 
+.kalel-4-11, .kalel-4-11-centro, 
+.kalel-3-11, .kalel-3-11-centro, 
+.kalel-2-11, .kalel-2-11-centro, 
+.kalel-1-11, .kalel-1-11-centro, 
+/**** 10 colunas ****/
+.kalel-10-10, 
+.kalel-9-10, .kalel-9-10-centro, 
+.kalel-8-10, .kalel-8-10-centro, 
+.kalel-7-10, .kalel-7-10-centro, 
+.kalel-6-10, .kalel-6-10-centro, 
+.kalel-5-10, .kalel-5-10-centro, 
+.kalel-4-10, .kalel-4-10-centro, 
+.kalel-3-10, .kalel-3-10-centro, 
+.kalel-2-10, .kalel-2-10-centro, 
+.kalel-1-10, .kalel-1-10-centro, 
+/**** 9 colunas ****/
+.kalel-9-9, 
+.kalel-8-9, .kalel-8-9-centro, 
+.kalel-7-9, .kalel-7-9-centro, 
+.kalel-6-9, .kalel-6-9-centro, 
+.kalel-5-9, .kalel-5-9-centro, 
+.kalel-4-9, .kalel-4-9-centro, 
+.kalel-3-9, .kalel-3-9-centro, 
+.kalel-2-9, .kalel-2-9-centro, 
+.kalel-1-9, .kalel-1-9-centro, 
+/**** 8 colunas ****/
+.kalel-8-8, 
+.kalel-7-8, .kalel-7-8-centro, 
+.kalel-6-8, .kalel-6-8-centro,
+.kalel-5-8, .kalel-5-8-centro,
+.kalel-4-8, .kalel-4-8-centro, 
+.kalel-3-8, .kalel-3-8-centro, 
+.kalel-2-8, .kalel-2-8-centro, 
+.kalel-1-8, .kalel-1-8-centro, 
+/**** 7 colunas ****/
+.kalel-7-7, 
+.kalel-6-7, .kalel-6-7-centro, 
+.kalel-5-7, .kalel-5-7-centro, 
+.kalel-4-7, .kalel-4-7-centro, 
+.kalel-3-7, .kalel-3-7-centro, 
+.kalel-2-7, .kalel-2-7-centro, 
+.kalel-1-7, .kalel-1-7-centro, 
+/**** 6 colunas ****/
+.kalel-6-6, 
+.kalel-5-6, .kalel-5-6-centro, 
+.kalel-4-6, .kalel-4-6-centro, 
+.kalel-3-6, .kalel-3-6-centro, 
+.kalel-2-6, .kalel-2-6-centro, 
+.kalel-1-6, .kalel-1-6-centro, 
+/**** 5 colunas ****/
+.kalel-5-5, 
+.kalel-4-5, .kalel-4-5-centro, 
+.kalel-3-5, .kalel-3-5-centro, 
+.kalel-2-5, .kalel-2-5-centro, 
+.kalel-1-5, .kalel-1-5-centro, 
+/**** 4 colunas ****/
+.kalel-4-4, 
+.kalel-3-4, .kalel-3-4-centro, 
+.kalel-2-4, .kalel-2-4-centro, 
+.kalel-1-4, .kalel-1-4-centro, 
+/**** 3 colunas ****/
+.kalel-3-3, 
+.kalel-2-3, .kalel-2-3-centro, 
+.kalel-1-3, .kalel-1-3-centro, 
+/**** 2 colunas ****/
+.kalel-2-2, 
+.kalel-1-2, .kalel-1-2-centro, 
+/**** 1 coluna ****/
+.kalel-1-1 {
+	display: inline-block;
+	min-height: 10px;
+	margin-top: .5%;
+	float: left;
+}
+
+/**** Espaçamento entre colunas que não são centralizadas ****/
+
+/**** 12 colunas ****/
+.kalel-12-12, 
+.kalel-11-12,  
+.kalel-10-12, 
+.kalel-9-12,  
+.kalel-8-12,  
+.kalel-7-12,  
+.kalel-6-12, 
+.kalel-5-12,  
+.kalel-4-12,  
+.kalel-3-12,  
+.kalel-2-12,  
+.kalel-1-12, 
+/**** 11 colunas ****/
+.kalel-11-11, 
+.kalel-10-11,  
+.kalel-9-11,  
+.kalel-8-11,  
+.kalel-7-11,  
+.kalel-6-11,  
+.kalel-5-11,  
+.kalel-4-11,  
+.kalel-3-11,  
+.kalel-2-11,  
+.kalel-1-11,  
+/**** 10 colunas ****/
+.kalel-10-10, 
+.kalel-9-10,  
+.kalel-8-10,  
+.kalel-7-10, 
+.kalel-6-10,  
+.kalel-5-10,  
+.kalel-4-10,  
+.kalel-3-10,  
+.kalel-2-10,  
+.kalel-1-10,  
+/**** 9 colunas ****/
+.kalel-9-9, 
+.kalel-8-9, 
+.kalel-7-9,  
+.kalel-6-9,  
+.kalel-5-9,  
+.kalel-4-9,  
+.kalel-3-9,  
+.kalel-2-9,  
+.kalel-1-9,  
+/**** 8 colunas ****/
+.kalel-8-8, 
+.kalel-7-8,  
+.kalel-6-8, 
+.kalel-5-8, 
+.kalel-4-8,  
+.kalel-3-8,  
+.kalel-2-8,  
+.kalel-1-8,  
+/**** 7 colunas ****/
+.kalel-7-7, 
+.kalel-6-7,  
+.kalel-5-7,  
+.kalel-4-7,  
+.kalel-3-7,  
+.kalel-2-7,  
+.kalel-1-7,  
+/**** 6 colunas ****/
+.kalel-5-6,  
+.kalel-4-6,  
+.kalel-3-6,  
+.kalel-2-6,  
+.kalel-1-6,  
+/**** 5 colunas ****/
+.kalel-5-5, 
+.kalel-4-5,  
+.kalel-3-5,  
+.kalel-2-5,  
+.kalel-1-5,  
+/**** 4 colunas ****/
+.kalel-4-4, 
+.kalel-3-4,  
+.kalel-2-4,  
+.kalel-1-4,  
+/**** 3 colunas ****/
+.kalel-3-3, 
+.kalel-2-3,  
+.kalel-1-3,  
+/**** 2 colunas ****/
+.kalel-2-2, 
+.kalel-1-2, 
+/**** 1 coluna ****/
+.kalel-1-1{
+	margin-left: 1%;
+}
+
+/**** Fim do Espaçamento entre colunas que não são centralizadas ****/
+
+/**** caracteristicas das colunas absolutas ****/
+
+.kalel-12-12, .kalel-11-11, .kalel-10-10, .kalel-9-9, .kalel-8-8, .kalel-7-7, .kalel-6-6, .kalel-5-5, .kalel-4-4, .kalel-3-3, 
+.kalel-2-2, .kalel-1-1{/*tamanho absoluto do site*/
+	width: 98%;
+}
+
+/**** Fim das caracteristicas das colunas absolutas ****/
+
+
+/**** Espaçamento das Colunas ****/
+
+/**** Padrão de 12 ****/
+
+.kalel-11-12, .kalel-11-12-centro{/*tamanho de 11 colunas*/
+	width:89.75%;
+}
+
+.kalel-11-12-centro{
+	margin-left: 5.125%;
+}
+
+.kalel-10-12, .kalel-10-12-centro{/*tamanho de 10 colunas*/
+	width: 81.5%;
+}
+
+.kalel-10-12-centro{
+	margin-left: 9.25%;
+}
+
+.kalel-9-12, .kalel-9-12-centro{/*tamanho de 9 colunas*/
+	width: 73.25%;
+}
+
+.kalel-9-12-centro{
+	margin-left:13.375%;
+}
+
+.kalel-8-12, .kalel-8-12-centro{/*tamanho de 8 colunas*/
+	width: 65%;
+}
+
+.kalel-8-12-centro{
+	margin-left: 17.5%;
+}
+
+.kalel-7-12, .kalel-7-12-centro{/*tamanho de 7 colunas*/
+	width: 56.75%;
+}
+
+.kalel-7-12-centro{
+	margin-left:21.625% ;
+}
+
+.kalel-6-12, .kalel-6-12-centro{/*tamanho de 6 colunas*/
+	width: 48.5%;
+}
+
+.kalel-6-12-centro{
+	margin-left: 25.75%;
+}
+
+.kalel-5-12, .kalel-5-12-centro{/*tamanho de 5 colunas*/
+	width: 40.25%;
+}
+
+.kalel-5-12-centro{
+	margin-left: 29.875%;
+}
+
+.kalel-4-12, .kalel-4-12-centro{/*tamanho de 4 colunas*/
+	width: 32%;
+}
+
+.kalel-4-12-centro{
+	margin-left: 34%;
+}
+
+.kalel-3-12, .kalel-3-12-centro{/*tamanho de 3 colunas*/
+	width: 23.75%;
+}
+
+.kalel-3-12-centro{
+	margin-left:38.125%; 
+}
+
+.kalel-2-12, .kalel-2-12-centro{/*tamanho de 2 colunas*/
+	width: 15.5%;
+}
+
+.kalel-2-12-centro{
+	margin-left: 42.25%;
+}
+
+.kalel-1-12, .kalel-1-12-centro{/*tamanho de 1 colunas*/
+	width: 7.25%;
+}
+
+.kalel-1-12-centro{
+	margin-left: 46.375%;
+}
+
+/**** Fim do 12 Padrão de ****/
+
+/**** Padrão de 11 ****/
+
+.kalel-10-11, .kalel-10-11-centro{
+	width: 89%;
+}
+
+.kalel-10-11-centro{
+	margin-left: 5.5%;
+}
+
+.kalel-9-11, .kalel-9-11-centro{
+	width: 80%;
+}
+
+.kalel-9-11-centro{
+	margin-left: 10%;
+}
+
+.kalel-8-11, .kalel-8-11-centro{
+	width: 71%;
+}
+
+.kalel-8-11-centro{
+	margin-left: 14.5%;
+}
+
+.kalel-7-11, .kalel-7-11-centro{
+	width: 62%;
+}
+
+.kalel-7-11-centro{
+	margin-left: 19%;
+}
+
+.kalel-6-11, .kalel-6-11-centro{
+	width: 53%;
+}
+
+.kalel-6-11-centro{
+	margin-left: 23.5%;
+}
+
+.kalel-5-11, .kalel-5-11-centro{
+	width: 44%;
+}
+
+.kalel-5-11-centro{
+	margin-left: 28%;
+}
+
+.kalel-4-11, .kalel-4-11-centro{
+	width: 35%;
+}
+
+.kalel-4-11-centro{
+	margin-left: 32.5%;
+}
+
+.kalel-3-11, .kalel-3-11-centro{
+	width:26%;	
+}
+
+.kalel-3-11-centro{
+	margin-left: 37%;
+}
+
+.kalel-2-11, .kalel-2-11-centro{
+	width: 17%;	
+}
+
+.kalel-2-11-centro{
+	margin-left: 41.5%;
+}
+
+.kalel-1-11, .kalel-1-11-centro{
+	width: 8%;
+}
+
+.kalel-1-11-centro{
+	margin-left: 46%;
+}
+/**** Fim do 11 Padrão de ****/
+
+/**** Padrão de 10 ****/
+
+.kalel-9-10, .kalel-9-10-centro{
+	width: 88.1%;
+}
+
+.kalel-9-10-centro{
+	margin-left: 5.95%;	
+}
+
+.kalel-8-10, .kalel-8-10-centro{
+	width: 78.2%;	
+}
+
+.kalel-8-10-centro{
+	margin-left: 10.9%;	
+}
+
+.kalel-7-10, .kalel-7-10-centro{
+	width: 68.3%;	
+}
+
+.kalel-7-10-centro{
+	margin-left: 15.85%;	
+}
+
+.kalel-6-10, .kalel-6-10-centro{
+	width: 58.4%;	
+}
+
+.kalel-6-10-centro{
+	margin-left: 20.8%;	
+}
+
+.kalel-5-10, .kalel-5-10-centro{
+	width: 48.5%;	
+}
+
+.kalel-5-10-centro{
+	margin-left: 25.75%;	
+}
+
+.kalel-4-10, .kalel-4-10-centro{
+	width: 38.6%;	
+}
+
+.kalel-4-10-centro{
+	margin-left: 30.7%;	
+}
+
+.kalel-3-10, .kalel-3-10-centro{
+	width: 28.7%;	
+}
+
+.kalel-3-10-centro{
+	margin-left: 35.65%;	
+}
+
+.kalel-2-10, .kalel-2-10-centro{
+	width: 18.8%;	
+}
+
+.kalel-2-10-centro{
+	margin-left: 40.6%;	
+}
+
+.kalel-1-10, .kalel-1-10-centro{
+	width: 8.9%;	
+}
+
+.kalel-1-10-centro{
+	margin-left: 45.55%;	
+}
+
+/**** fim do Padrão de 10 ****/
+
+/**** Padrão de 9 ****/
+
+.kalel-8-9, .kalel-8-9-centro{
+	width: 87%;	
+}
+
+.kalel-8-9-centro{
+	margin-left: 6.5%;
+}
+
+.kalel-7-9, .kalel-7-9-centro{
+	width: 76%;	
+}
+
+.kalel-7-9-centro{
+	margin-left: 12%;
+}
+
+.kalel-6-9, .kalel-6-9-centro{
+	width: 65%;	
+}
+
+.kalel-6-9-centro{
+	margin-left: 17.5%;
+}
+
+.kalel-5-9, .kalel-5-9-centro{
+	width: 54%;	
+}
+
+.kalel-5-9-centro{
+	margin-left: 23%;
+}
+
+.kalel-4-9, .kalel-4-9-centro{
+	width: 43%;	
+}
+
+.kalel-4-9-centro{
+	margin-left: 28.5%;
+}
+
+.kalel-3-9, .kalel-3-9-centro{
+	width: 32%;	
+}
+
+.kalel-3-9-centro{
+	margin-left: 34%;
+}
+
+.kalel-2-9, .kalel-2-9-centro{
+	width: 21%;	
+}
+
+.kalel-2-9-centro{
+	margin-left: 39.5%;
+}
+
+.kalel-1-9, .kalel-1-9-centro{
+	width: 10%;
+}
+
+.kalel-1-9-centro{
+	margin-left: 45%;
+}
+
+/**** fim do padrão de 9 ****/
+
+/**** Padrão 8 ****/
+
+.kalel-7-8, .kalel-7-8-centro{
+	width: 85.625%;
+}
+
+.kalel-7-8-centro{
+	margin-left: 7.1875%;
+}
+
+.kalel-6-8, .kalel-6-8-centro{
+	width: 73.25%;	
+}
+
+.kalel-6-8-centro{
+	margin-left: 13.375%;
+}
+
+.kalel-5-8, .kalel-5-8-centro{
+	width: 60.875%;	
+}
+
+.kalel-5-8-centro{
+	margin-left: 19.5625%;
+}
+
+.kalel-4-8, .kalel-4-8-centro{
+	width: 48.5%;	
+}
+
+.kalel-4-8-centro{
+	margin-left: 25.75%;
+}
+
+.kalel-3-8, .kalel-3-8-centro{
+	width: 36.125%;	
+}
+
+.kalel-3-8-centro{
+	margin-left: 31.9375%;
+}
+
+.kalel-2-8, .kalel-2-8-centro{
+	width: 23.75%;	
+}
+
+.kalel-2-8-centro{
+	margin-left:  38.125%;
+}
+
+.kalel-1-8, .kalel-1-8-centro{
+	width: 11.375%;	
+}
+
+.kalel-1-8-centro{
+	margin-left: 44.3125%;
+}
+
+/*** fim do Padrão de 8 ****/
+
+/**** Padrão de 7 ****/
+
+.kalel-6-7, .kalel-6-7-centro{
+	width: 83.8568%;
+}
+
+.kalel-6-7-centro{
+	margin-left: 8.0716%;
+}
+
+.kalel-5-7, .kalel-5-7-centro{
+	width: 69.714%;
+}
+
+.kalel-5-7-centro{
+	margin-left: 15.143%;
+}
+
+.kalel-4-7, .kalel-4-7-centro{
+	width: 55.5712%;
+}
+
+.kalel-4-7-centro{
+	margin-left: 22.2144%;
+}
+
+.kalel-3-7, .kalel-3-7-centro{
+	width: 41.4284%;
+}
+
+.kalel-3-7-centro{
+	margin-left: 29.2858%;
+}
+
+.kalel-2-7, .kalel-2-7-centro{
+	width: 27.2856%;
+}
+
+.kalel-2-7-centro{
+	margin-left: 36.3572%;
+}
+
+.kalel-1-7, .kalel-1-7-centro{
+	width: 13.1428%;
+}
+
+.kalel-1-7-centro{
+	margin-left: 43.4286%;
+}
+
+/**** Fim do Padrão de 7 *****/
+
+/**** Padrão de 6 ****/
+
+.kalel-5-6, .kalel-5-6-centro{
+	width: 81.5%;	
+}
+
+.kalel-5-6-centro{
+	margin-left: 9.25%;
+}
+
+.kalel-4-6, .kalel-4-6-centro{
+	width: 65%;	
+}
+
+.kalel-4-6-centro{
+	margin-left: 17.5%;	
+}
+
+.kalel-3-6, .kalel-3-6-centro{
+	width: 48.5%;	
+}
+
+.kalel-3-6-centro{
+	margin-left: 25.75%;	
+}
+
+.kalel-2-6, .kalel-2-6-centro{
+	width: 32%;	
+}
+
+.kalel-2-6-centro{
+	margin-left: 34%;	
+}
+
+.kalel-1-6, .kalel-1-6-centro{
+	width: 15.5%;	
+}
+
+.kalel-1-6-centro{
+	margin-left: 42.25%;
+}
+
+/**** Fim do Padrão de 6 *****/
+
+/**** Padrão de 5 ****/
+
+.kalel-4-5, .kalel-4-5-centro{
+	width: 78.2%;
+}
+
+.kalel-4-5-centro{
+	margin-left: 10.9%;
+}
+
+.kalel-3-5, .kalel-3-5-centro{
+	width: 58.4%;
+}
+
+.kalel-3-5-centro{
+	margin-left: 20.8%;
+}
+
+.kalel-2-5, .kalel-2-5-centro{
+	width: 38.6%;
+}
+
+.kalel-2-5-centro{
+	margin-left: 30.7%;
+}
+
+.kalel-1-5, .kalel-1-5-centro{
+	width: 18.8%;
+}
+
+.kalel-1-5-centro{
+	margin-left: 40.2%;
+}
+
+/**** Fim do Padrão de 5 *****/
+
+/**** Padrão de 4 ****/
+
+.kalel-3-4, .kalel-3-4-centro{
+	width: 73.25%;
+}
+
+.kalel-3-4-centro{
+	margin-left: 13.375%;
+}
+
+.kalel-2-4, .kalel-2-4-centro{
+	width: 48.5%;
+}
+
+.kalel-2-4-centro{
+	margin-left: 25.75%;
+}
+
+.kalel-1-4, .kalel-1-4-centro{
+	width: 23.75%;
+}
+
+.kalel-1-4-centro{
+	margin-left: 38.125%;
+}
+
+/**** Fim do Padrão de 4 *****/
+
+/**** Padrão de 3 ****/
+
+.kalel-2-3, .kalel-2-3-centro{
+	width: 65%;
+}
+
+.kalel-2-3-centro{
+	margin-left: 17.5%;
+}
+
+.kalel-1-3, .kalel-1-3-centro{
+	width: 32%;
+}
+
+.kalel-1-3-centro{
+	margin-left: 34%;
+}
+
+/**** Fim do Padrão de 3 *****/
+
+/**** Padrão de 2 ****/
+
+.kalel-1-2, .kalel-1-2-centro{
+	width: 48.5%;
+}
+
+.kalel-1-2-centro{
+	margin-left: 25.75%;
+}
+
+/**** Fim do Padrão de 2 *****/
+
+/**** Classes Para Pular Colunas ****/
+
+/**** 12 colunas ****/
+
+.pular-1-12{
+	margin-left: 9.25%;
+}
+
+.pular-2-12{
+	margin-left: 17.5%;
+}
+
+.pular-3-12{
+	margin-left: 25.75%;
+}
+
+.pular-4-12{
+	margin-left: 34%;
+}
+
+.pular-5-12{
+	margin-left: 42.25%;
+}
+
+.pular-6-12{
+	margin-left: 50.5%;
+}
+.pular-7-12{
+	margin-left: 58.75%;
+}
+
+.pular-8-12{
+	margin-left: 67%; 
+}
+
+.pular-9-12{
+	margin-left: 75.25%;
+}
+
+.pular-10-12{
+	margin-left: 83.5%;
+}
+
+.pular-11-12{
+	margin-left: 91.75%;
+}
+
+/**** fim do Padrão de 12 Colunas *****/
+
+/**** 11 colunas ****/
+
+.pular-1-11{
+	margin-left: 10%;
+}
+
+.pular-2-11{
+	margin-left: 19%;
+}
+
+.pular-3-11{
+	margin-left: 28%;
+}
+
+.pular-4-11{
+	margin-left: 37%;
+}
+
+.pular-5-11{
+	margin-left: 46%;
+}
+
+.pular-6-11{
+	margin-left: 55%;
+}
+
+.pular-7-11{
+	margin-left: 64%;
+}
+
+.pular-8-11{
+	margin-left: 73%;
+}
+
+.pular-9-11{
+	margin-left: 82%;
+}
+
+.pular-10-11{
+	margin-left: 91%;
+}
+
+/**** fim do Padrão de 11 Colunas *****/
+
+/**** 10 colunas ****/
+
+.pular-1-10{
+	margin-left: 10.9%;
+}
+
+.pular-2-10{
+	margin-left: 20.8%;
+}
+
+.pular-3-10{
+	margin-left: 30.7%;
+}
+
+.pular-4-10{
+	margin-left: 40.6%;
+}
+
+.pular-5-10{
+	margin-left: 50.5%;
+}
+
+.pular-6-10{
+	margin-left: 60.4%;
+}
+
+.pular-7-10{
+	margin-left: 70.3%;
+}
+
+.pular-8-10{
+	margin-left: 80.2%;
+}
+
+.pular-9-10{
+	margin-left: 90.1%;
+}
+
+/**** fim do Padrão de 10 Colunas *****/
+
+/**** 9 colunas ****/
+
+.pular-1-9{
+	margin-left: 12%;
+}
+
+.pular-2-9{
+	margin-left: 23%;
+}
+
+.pular-3-9{
+	margin-left: 34%;
+}
+
+.pular-4-9{
+	margin-left: 45%;
+}
+
+.pular-5-9{
+	margin-left: 56%;
+}
+
+.pular-6-9{
+	margin-left: 67%;
+}
+
+.pular-7-9{
+	margin-left: 78%;
+}
+
+.pular-8-9{
+	margin-left: 89%;
+}
+
+/**** fim do Padrão de 9 Colunas *****/
+
+/**** 8 colunas ****/
+
+.pular-1-8{
+	margin-left: 13.375%;
+}
+
+.pular-2-8{
+	margin-left: 25.75%;
+}
+
+.pular-3-8{
+	margin-left: 38.125%;
+}
+
+.pular-4-8{
+	margin-left: 50.5%;
+}
+
+.pular-5-8{
+	margin-left: 62.875%;
+}
+
+.pular-6-8{
+	margin-left: 75.25%;
+}
+
+.pular-7-8{
+	margin-left: 87.625%;
+}
+
+/**** fim do Padrão de 8 Colunas *****/
+
+/**** 7 colunas ****/
+
+.pular-1-7{
+	margin-left: 15.1428%;
+}
+
+.pular-2-7{
+	margin-left: 29.2856%;
+}
+
+.pular-3-7{
+	margin-left: 43.4284%;
+}
+
+.pular-4-7{
+	margin-left: 57.5712%;
+}
+
+.pular-5-7{
+	margin-left: 71.714%;
+}
+
+.pular-6-7{
+	margin-left: 85.8568%;
+}
+
+/**** fim do Padrão de 7 Colunas *****/
+
+/**** 6 colunas ****/
+
+.pular-1-6{
+	margin-left: 17.5%;
+}
+
+.pular-2-6{
+	margin-left: 34%;
+}
+
+.pular-3-6{
+	margin-left: 50.5%;
+}
+
+.pular-4-6{
+	margin-left: 67%;
+}
+
+.pular-5-6{
+	margin-left: 83.5%;
+}
+
+/**** fim do Padrão de 6 Colunas *****/
+
+/**** 5 colunas ****/
+
+.pular-4-5{
+	margin-left: 80.2%;
+}
+
+.pular-3-5{
+	margin-left: 60.4%;
+}
+
+.pular-2-5{
+	margin-left: 40.6%;
+}
+
+.pular-1-5{
+	margin-left: 20.8%;
+}
+
+/**** fim do Padrão de 5 Colunas *****/
+
+/******* 4 colunas *******/
+
+.pular-3-4{
+	margin-left: 75.25%;
+}
+
+.pular-2-4{
+	margin-left: 50.5%;
+}
+
+.pular-1-4{
+	margin-left: 25.75%;
+}
+
+/**** fim do Padrão de 4 Colunas *****/
+
+/******* 3 colunas *******/
+
+.pular-2-3{
+	margin-left: 67%;
+}
+
+.pular-1-3{
+	margin-left: 34%;
+}
+
+/**** fim do Padrão de 3 Colunas *****/
+
+/***** 2 colunas ******/
+
+.pular-1-2{
+	margin-left: 50.5%;
+}
+
+/**** fim do Padrão de 2 Colunas *****/
+
+/**** fim das Classes Para Pular Colunas ****/
+
+/**** Fim da Grade *****/
+
+
+
+/**** Inicio dos Media Querys ****/
+
+/**** padrão para monitores grandes com resolução minima de 1024px ****/
+
+@media screen and (min-width: 1024px){
+	.kalel{
+		width: 1000px;
+	}
+
+}
+
+/***** Media querys para aumentar os bottons do grid *******/
+
+@media screen and (max-width: 1000px){
+	.bt{
+		min-width: 32.3333%;
+	}
+}
+
+/**** padrão para monitores comuns de 960px ****/
+
+@media screen and (max-width: 960px){
+
+	.kalel{
+		width: 100%;
+		margin: 0;
+	}
+
+	/**** Textos ****/
+	
+	p{
+		font-size: 1em;
+	}
+
+	h1{
+		font-size: 1.9em;
+	}
+
+	h2{
+		font-size: 1.7em;
+	}
+
+	h3{
+		font-size: 1.5em;
+	}
+
+	h4{
+		font-size: 1.3em;
+	}
+
+	h5{
+		font-size: 1.1em;
+	}
+
+	h6{
+		font-size: 1em;
+	}
+
+}
+
+/**** Media query do menu ****/
+
+@media screen and (max-width: 728px){
+	.logo{
+		width: 100%;
+		max-width: 100%; 
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.menu, .menu-centro{
+		width: 100% !important;
+		max-width: 100% !important;
+		padding: 0;
+		margin-top: .5%;
+		margin-left: 0 !important;
+	}
+
+	.menu ul, .menu-centro ul{
+		text-align: center;
+		width: 100%;
+	}
+
+	.menu ul li, .menu-centro ul li{
+		max-width: 24%;
+		width: auto;
+		min-width: 15%;
+		margin-top: .2%; 
+		margin-left: 0;	
+		padding: 0;
+	}
+
+}
+
+/**** Fim do Media query do menu ****/
+
+/**** padrão para telas de ate 615px ****/
+
+@media screen and ( max-width: 655px){
+
+body{
+	text-align: center;
+}
+
+/**** Classes de Responsividade ****/
+
+.responsivo, .responsivo-medio, .responsivo-centro, .responsivo-medio-centro, .responsivo-triplo, .responsivo-quatro, .top{
+	margin-top: 1% !important;
+	float: left !important; 
+	margin-bottom: 1% !important;
+}
+
+.responsivo{
+	width: 100% !important;
+	margin-left: 0%;
+}	
+
+.responsivo-medio, .responsivo-medio-centro{
+	width: 48.5% !important;	
+}
+
+.responsivo-medio, .responsivo-triplo, .responsivo-quatro{
+	margin-left: 1% !important;
+}
+
+.responsivo-medio-centro{
+	margin-left: 25.75% !important;
+}
+
+.responsivo-centro{
+	width: 80%  !important;
+	margin-left: 10%  !important;
+}
+
+.responsivo-triplo{
+	width: 32% !important;
+}
+
+.responsivo-quatro{
+	width: 23.75% !important;
+}
+
+/**** Fim das Classes de Responsividade ****/
+
+/**** botões ****/
+.bt{
+	min-width: 40% !important;
+	margin-left: 0;
+}
+
+/**** imagens ****/
+
+img, .img-grande, .img-media, .img-pequena{
+		max-width: 100% !important;
+		margin-left: 0 !important;
+	}
+
+/**** Menu ****/
+
+.mini-menu{
+	display: block;
+}
+
+}
+
+@media screen and (max-width: 560px) {
+	
+	body{
+		overflow: hidden;
+	}
+
+	/**** botões ****/
+
+	.bt{
+		min-width: 80% !important;
+	}
+
+	/**** imagens ****/
+
+	img, .img-grande, .img-media, .img-pequena{
+		max-width: 100% !important;
+		margin-left: 0 !important;
+	}
+
+}
+
+/**** Media query do menu ****/
+
+@media screen and (max-width: 437px){
+
+	.menu, .menu-centro{
+		margin-top: 0;
+		/*background-color: red;*/
+		width: 100% !important;
+		max-width: 100% !important;
+		margin-left: 0% !important;
+		background-color: none !important;
+		height: 150px;
+		overflow: scroll;
+		overflow-x: hidden; 
+	}
+	
+	.menu ul, .menu-centro ul{
+		border-bottom: 2px solid #ddd;
+		display: inline-block;
+	}
+
+	.menu ul li, .menu-centro ul li{
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
+		margin-top: .5%;
+		text-align: left;
+		border-top: 1px #ddd solid;
+	}
+
+}
+
+/**** Fim do Media query do menu ****/
+
+/**** fim do media query do grid ****/
+
+/**************** Visibilidade no Media Query *****************/
+
+/**** desktop ****/
+
+@media screen and (min-width: 769px){
+
+	/**** visualização do grid ****/
+
+	.vis-desk, .invis-cel, .invis-tab{
+		display: block !important;
+	}
+
+	/**** visualização do fundo-preto ****/
+
+	.fundo-preto-vis-desk, .fundo-preto-invis-tab, .fundo-preto-invis-cel{
+		background-color: #000 !important;
+		color: white;
+	}
+
+	/**** visualização do fundo-branco ****/
+
+	.fundo-branco-vis-desk, .fundo-branco-invis-tab, .fundo-branco-invis-cel{
+		background-color: white !important;
+	}
+
+	/**** visualização do fundo-azul ****/
+
+	.fundo-azul-vis-desk, .fundo-azul-invis-tab, .fundo-azul-invis-cel{
+		background-color: #128bca !important;
+		color: white;
+	}
+
+	/**** visualização do fundo-azul-claro ****/
+
+	.fundo-azul-claro-vis-desk, .fundo-azul-claro-invis-tab, .fundo-azul-claro-invis-cel{
+		background-color: #2bc0de !important;
+	}
+
+	/**** visualização do fundo-ciano ****/
+
+	.fundo-ciano-vis-desk, .fundo-ciano-invis-tab, .fundo-ciano-invis-cel{
+		background-color: cyan !important;
+	}
+
+	/**** visualização do fundo-verde ****/
+
+	.fundo-verde-vis-desk, .fundo-verde-invis-tab, .fundo-verde-invis-cel{
+		background-color: #1cb85c !important;
+	}
+
+	/**** visualização do fundo-vermelho ****/
+
+	.fundo-vermelho-vis-desk, .fundo-vermelho-invis-tab, .fundo-vermelho-invis-cel{
+		background-color: #d2322d !important;
+		color: white;
+	}
+
+	/**** visualização do fundo-laranja ****/
+
+	.fundo-laranja-vis-desk, .fundo-laranja-invis-tab, .fundo-laranja-invis-cel{
+		background-color: #ed9c28 !important;
+	}
+
+	/**** visualização do fundo-tomate ****/
+
+	.fundo-tomate-vis-desk, .fundo-tomate-invis-tab, .fundo-tomate-invis-cel{
+		background-color: tomato !important;
+	}
+
+	/**** LINKS ****/
+
+	/**** Links do fundo-preto ****/
+
+	.fundo-preto-vis-desk a, .fundo-preto-invis-tab a, .fundo-preto-invis-cel a, 
+	.fundo-preto-vis-desk label, .fundo-preto-invis-tab label, .fundo-preto-invis-cel label{
+		color: white !important;
+	}
+
+	.fundo-preto-vis-desk a:hover, .fundo-preto-invis-tab a:hover, .fundo-preto-invis-cel a:hover{
+		color:  #128bca !important;
+	}
+
+	/**** Links do fundo-azul ****/
+
+	.fundo-azul-vis-desk a, .fundo-azul-invis-tab a, .fundo-azul-invis-cel a{
+		color: white !important;
+	}
+
+	.fundo-azul-vis-desk a:hover, .fundo-azul-invis-tab a:hover, .fundo-azul-invis-cel a:hover{
+		color: #000 !important;
+	}
+
+	/**** Links do fundo-azul-claro ****/
+
+	.fundo-azul-claro-vis-desk a, .fundo-azul-claro-invis-tab a, .fundo-azul-claro-invis-cel a{
+		color: #000 !important;
+	}
+
+	.fundo-azul-claro-vis-desk a:hover, .fundo-azul-claro-invis-tab a:hover, .fundo-azul-claro-invis-cel a:hover{
+		color: white !important;
+	}
+
+	/**** Links do fundo-ciano ****/
+
+	.fundo-ciano-vis-desk a:hover, .fundo-ciano-invis-tab a:hover, .fundo-ciano-invis-cel a:hover{
+		color:  white !important;
+	}
+
+
+	/**** Links do fundo-verde ****/
+
+	.fundo-verde-vis-desk a, .fundo-verde-invis-tab a, .fundo-verde-invis-cel a{
+		color: #000 !important;
+	}
+
+	.fundo-verde-vis-desk a:hover, .fundo-verde-invis-tab a:hover, .fundo-verde-invis-cel a:hover{
+		color: white !important;
+	}
+
+
+	/**** Links do fundo-vermelho ****/
+
+	.fundo-vermelho-vis-desk a, .fundo-vermelho-invis-tab a, .fundo-vermelho-invis-cel a{
+		color: white !important;
+	}
+
+	.fundo-vermelho-vis-desk a:hover, .fundo-vermelho-invis-tab a:hover, .fundo-vermelho-invis-cel a:hover{
+		color: #000 !important;
+	}
+
+
+	/**** Links do fundo-laranja ****/
+
+	.fundo-laranja-vis-desk a, .fundo-laranja-invis-tab a, .fundo-laranja-invis-cel a{
+		color: #000 !important;
+	}
+
+	.fundo-laranja-vis-desk a:hover, .fundo-laranja-invis-tab a:hover, .fundo-laranja-invis-cel a:hover{
+		color: white !important;
+	}
+
+
+	/**** visualização do fundo-tomate ****/
+
+	.fundo-tomate-vis-desk a:hover, .fundo-tomate-invis-tab a:hover, .fundo-tomate-invis-cel a:hover{
+		color:  white !important;
+	}
+
+} 
+
+/**** tablet ****/
+
+@media screen and (min-width: 656px) and (max-width: 768px){
+
+	/**** visualização do grid ****/
+
+	.vis-tab, .invis-desk, .invis-cel{
+		display: block !important;
+	}
+
+	/**** visualização do fundo-preto ****/
+
+	.fundo-preto-vis-tab, .fundo-preto-invis-desk, .fundo-preto-invis-cel{
+		background-color: #000 !important;
+		color: white;
+	}
+
+	/**** visualização do fundo-branco ****/
+
+	.fundo-branco-vis-tab, .fundo-branco-invis-desk, .fundo-branco-invis-cel{
+		background-color: white !important;
+	}
+
+	/**** visualização do fundo-azul ****/
+
+	.fundo-azul-vis-tab, .fundo-azul-invis-desk, .fundo-azul-invis-cel{
+		background-color: #128bca !important;
+		color: white;
+	}
+
+	/**** visualização do fundo-azul-claro ****/
+
+	.fundo-azul-claro-vis-tab, .fundo-azul-claro-invis-desk, .fundo-azul-claro-invis-cel{
+		background-color: #2bc0de !important;
+	}
+
+	/**** visualização do fundo-ciano ****/
+
+	.fundo-ciano-vis-tab, .fundo-ciano-invis-desk, .fundo-ciano-invis-cel{
+		background-color: cyan !important;
+	}
+
+	/**** visualização do fundo-verde ****/
+
+	.fundo-verde-vis-tab, .fundo-verde-invis-desk, .fundo-verde-invis-cel{
+		background-color: #1cb85c !important;
+	}
+
+	/**** visualização do fundo-vermelho ****/
+
+	.fundo-vermelho-vis-tab, .fundo-vermelho-invis-desk, .fundo-vermelho-invis-cel{
+		background-color: #d2322d !important;
+		color: white;
+	}
+
+	/**** visualização do fundo-laranja ****/
+
+	.fundo-laranja-vis-tab, .fundo-laranja-invis-desk, .fundo-laranja-invis-cel{
+		background-color: #ed9c28 !important;
+	}
+
+	/**** visualização do fundo-tomate ****/
+
+	.fundo-tomate-vis-tab, .fundo-tomate-invis-desk, .fundo-tomate-invis-cel{
+		background-color: tomato !important;
+	}
+
+	/**** LINKS ****/
+
+	/**** Links do fundo-preto ****/
+
+	.fundo-preto-vis-tab a, .fundo-preto-invis-desk a, .fundo-preto-invis-cel a, 
+	.fundo-preto-vis-tab label, .fundo-preto-invis-desk label, .fundo-preto-invis-cel label{
+		color: white !important;
+	}
+
+	.fundo-preto-vis-tab a:hover, .fundo-preto-invis-desk a:hover, .fundo-preto-invis-cel a:hover{
+		color: #128bca !important;
+	}
+
+	/**** Links do fundo-azul ****/
+
+	.fundo-azul-vis-tab a, .fundo-azul-invis-desk a, .fundo-azul-invis-cel a{
+		color: white !important;
+	}
+
+	.fundo-azul-vis-tab a:hover, .fundo-azul-invis-desk a:hover, .fundo-azul-invis-cel a:hover{
+		color: #000 !important;
+	}
+
+	/**** Links do fundo-azul-claro ****/
+
+	.fundo-azul-claro-vis-tab a, .fundo-azul-claro-invis-desk a, .fundo-azul-claro-invis-cel a{
+		color: #000 !important;
+	}
+
+	.fundo-azul-claro-vis-tab a:hover, .fundo-azul-claro-invis-desk a:hover, .fundo-azul-claro-invis-cel a:hover{
+		color: white !important;
+	}
+
+	/**** Links do fundo-ciano ****/
+
+	.fundo-ciano-vis-tab a:hover, .fundo-ciano-invis-desk a:hover, .fundo-ciano-invis-cel a:hover{
+		color: white !important;
+	}
+
+	/**** Links do fundo-verde ****/
+
+	.fundo-verde-vis-tab a, .fundo-verde-invis-desk a, .fundo-verde-invis-cel a{
+		color: #000 !important;
+	}
+
+	.fundo-verde-vis-tab a:hover, .fundo-verde-invis-desk a:hover, .fundo-verde-invis-cel a:hover{
+		color: white !important;
+	}
+
+	/**** Links do fundo-vermelho ****/
+
+	.fundo-vermelho-vis-tab a, .fundo-vermelho-invis-desk a, .fundo-vermelho-invis-cel a{
+		color: white !important;
+	}
+
+	.fundo-vermelho-vis-tab a:hover, .fundo-vermelho-invis-desk a:hover, .fundo-vermelho-invis-cel a:hover{
+		color: #000 !important;
+	}
+
+	/**** Links do fundo-laranja ****/
+
+	.fundo-laranja-vis-tab a, .fundo-laranja-invis-desk a, .fundo-laranja-invis-cel a{
+		color: white !important;
+	}
+
+	.fundo-laranja-vis-tab a:hover, .fundo-laranja-invis-desk a:hover, .fundo-laranja-invis-cel a:hover{
+		color: #000 !important;
+	}
+
+	/**** Links do fundo-tomate ****/
+
+	.fundo-tomate-vis-tab a:hover, .fundo-tomate-invis-desk a:hover, .fundo-tomate-invis-cel a:hover{
+		color: white !important;
+	}
+
+}
+
+/**** smartphone ****/
+
+@media screen and (max-width: 655px){
+
+	/**** visualização do grid ****/
+
+	.vis-cel, .invis-desk, .invis-tab{
+		display: block !important;
+	}
+
+	/**** visualização do fundo-preto ****/
+
+	.fundo-preto-vis-cel, .fundo-preto-invis-desk, .fundo-preto-invis-tab{
+		background-color: #000 !important;
+		color: white;
+	}
+
+	/**** visualização do fundo-branco ****/
+
+	.fundo-branco-vis-cel, .fundo-branco-invis-desk, .fundo-branco-invis-tab{
+		background-color: white !important;	
+	}
+
+	/**** visualização do fundo-azul ****/
+
+	.fundo-azul-vis-cel, .fundo-azul-invis-desk, .fundo-azul-invis-tab{
+		background-color: #128bca !important;
+		color: white;
+	}
+
+	/**** visualização do fundo-azul-claro ****/
+
+	.fundo-azul-claro-vis-cel, .fundo-azul-claro-invis-desk, .fundo-azul-claro-invis-tab{
+		background-color: #2bc0de !important;
+	}
+
+	/**** visualização do fundo-ciano ****/
+
+	.fundo-ciano-vis-cel, .fundo-ciano-invis-desk, .fundo-ciano-invis-tab{
+		background-color: cyan !important;
+	}
+
+	/**** visualização do fundo-verde ****/
+
+	.fundo-verde-vis-cel, .fundo-verde-invis-desk, .fundo-verde-invis-tab{
+		background-color: #1cb85c !important;
+	}
+
+	/**** visualização do fundo-vermelho ****/
+
+	.fundo-vermelho-vis-cel, .fundo-vermelho-invis-desk, .fundo-vermelho-invis-tab{
+		background-color: #d2322d !important;
+		color: white;
+	}
+
+	/**** visualização do fundo-laranja ****/
+
+	.fundo-laranja-vis-cel, .fundo-laranja-invis-desk, .fundo-laranja-invis-tab{
+		background-color: #ed9c28 !important;
+	}
+
+	/**** visualização do fundo-tomate ****/
+
+	.fundo-tomate-vis-cel, .fundo-tomate-invis-desk, .fundo-tomate-invis-tab{
+		background-color: tomato !important;
+	}
+
+	/**** LINKS ****/
+
+	/**** Links do fundo-preto ****/
+
+	.fundo-preto-vis-cel a, .fundo-preto-invis-desk a, .fundo-preto-invis-tab a, 
+	.fundo-preto-vis-cel label, .fundo-preto-invis-desk label, .fundo-preto-invis-tab label{
+			color: white !important;
+	}
+
+	.fundo-preto-vis-cel a:hover, .fundo-preto-invis-desk a:hover, .fundo-preto-invis-tab a:hover{
+		color: #128bca !important;
+	}
+
+	/**** Links do fundo-azul ****/
+
+	.fundo-azul-vis-cel a, .fundo-azul-invis-desk a, .fundo-azul-invis-tab a{
+		color: #000 !important;
+	}
+
+	.fundo-azul-vis-cel a:hover, .fundo-azul-invis-desk a:hover, .fundo-azul-invis-tab a:hover{
+		color: white !important;
+	}
+
+	/**** Links do fundo-azul-claro ****/
+
+	.fundo-azul-claro-vis-cel a, .fundo-azul-claro-invis-desk a, .fundo-azul-claro-invis-tab a{
+		color: #000 !important;
+	}
+
+	.fundo-azul-claro-vis-cel a:hover, .fundo-azul-claro-invis-desk a:hover, .fundo-azul-claro-invis-tab a:hover{
+		color: white !important;
+	}
+
+	/**** Links do fundo-ciano ****/
+
+	.fundo-ciano-vis-cel a:hover, .fundo-ciano-invis-desk a:hover, .fundo-ciano-invis-tab a:hover{
+		color: white !important;
+	}
+
+	/**** Links do fundo-verde ****/
+
+	.fundo-verde-vis-cel a, .fundo-verde-invis-desk a, .fundo-verde-invis-tab a{
+		color: #000 !important;
+	}
+
+	.fundo-verde-vis-cel a:hover, .fundo-verde-invis-desk a:hover, .fundo-verde-invis-tab a:hover{
+		color: white !important;
+	}
+
+	/**** Links do fundo-vermelho ****/
+
+	.fundo-vermelho-vis-cel a, .fundo-vermelho-invis-desk a, .fundo-vermelho-invis-tab a{
+		color: white !important;		
+	}
+
+	.fundo-vermelho-vis-cel a:hover, .fundo-vermelho-invis-desk a:hover, .fundo-vermelho-invis-tab a:hover{
+		color: #000 !important;		
+	}
+
+	/**** Links do fundo-laranja ****/
+
+	.fundo-laranja-vis-cel a, .fundo-laranja-invis-desk a, .fundo-laranja-invis-tab a{
+		color: #000 !important;
+	}
+
+	.fundo-laranja-vis-cel a:hover, .fundo-laranja-invis-desk a:hover, .fundo-laranja-invis-tab a:hover{
+		color: white !important;
+	}
+
+	/**** Links do fundo-tomate ****/
+
+	.fundo-tomate-vis-cel a:hover, .fundo-tomate-invis-desk a:hover, .fundo-tomate-invis-tab a:hover{
+		color: white !important;
+	}
+
+}
